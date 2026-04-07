@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Paletas de Colores</title>
+    <title>Color tables</title>
     <style>
         body { font-family: sans-serif; margin: 40px; background-color: #f4f4f4; }
         .container { max-width: 800px; margin: 0 auto 60px auto; background: white; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
         img { width: 100%; height: auto; display: block; margin-bottom: 20px; }
         table { width: 100%; border-collapse: collapse; text-align: center; }
         th, td { border: 1px solid #000; padding: 12px; width: 25%; }
-        /* Palette 1 */
+        /* Palette 1 */ 
         .p1-green { background-color: #88D8B0; }
         .p1-blue { background-color: #89CFF0; }
         .p1-lilac { background-color: #DCD0FF; }
