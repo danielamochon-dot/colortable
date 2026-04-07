@@ -9,7 +9,7 @@
         img { width: 100%; height: auto; display: block; margin-bottom: 20px; }
         table { width: 100%; border-collapse: collapse; text-align: center; }
         th, td { border: 1px solid #000; padding: 12px; width: 25%; }
-        /* Paletas de colores */
+          /* Paletas de colores */
         .p1-green { background-color: #88D8B0; }
         .p1-blue { background-color: #89CFF0; }
         .p1-lilac { background-color: #DCD0FF; }
