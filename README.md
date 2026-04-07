@@ -2,14 +2,41 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Color tables</title>
+    <title>Tablas de Colores - Arte</title>
     <style>
-        body { font-family: sans-serif; margin: 40px; background-color: #f4f4f4; }
-        .container { max-width: 800px; margin: 0 auto 60px auto; background: white; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        img { width: 100%; height: auto; display: block; margin-bottom: 20px; }
-        table { width: 100%; border-collapse: collapse; text-align: center; }
-        th, td { border: 1px solid #000; padding: 12px; width: 25%; }
-          /* Paletas de colores */
+        /* Esto controla que el texto no se amontone y se vea como diseño */
+        body { 
+            font-family: sans-serif; 
+            margin: 40px; 
+            background-color: #f4f4f4; 
+            line-height: 1.6;
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto 60px auto; 
+            background: white; 
+            padding: 20px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            border-radius: 8px;
+        }
+        img { 
+            width: 100%; 
+            height: auto; 
+            display: block; 
+            margin-bottom: 20px; 
+            border-radius: 4px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            text-align: center; 
+        }
+        th, td { 
+            border: 1px solid #ddd; 
+            padding: 12px; 
+            width: 25%; 
+        }
+        /* Colores de las cabeceras */
         .p1-green { background-color: #88D8B0; }
         .p1-blue { background-color: #89CFF0; }
         .p1-lilac { background-color: #DCD0FF; }
@@ -26,7 +53,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="Copia de Claude-Monet-The-Waterlily-Pond-with-the-Japanese-Bridge-1899.jpg" alt="Monet Pond">
+        <img src="Copia de Claude-Monet-The-Waterlily-Pond-with-the-Japanese-Bridge-1899.jpg" alt="Waterlily Pond">
         <table>
             <tr>
                 <th class="p1-green">Green</th>
@@ -40,13 +67,10 @@
             <tr>
                 <td>(136, 216, 176)</td><td>(137, 207, 240)</td><td>(220, 208, 255)</td><td>(255, 250, 205)</td>
             </tr>
-            <tr>
-                <td>(150°, 50%, 69%)</td><td>(199°, 77%, 74%)</td><td>(255°, 100%, 91%)</td><td>(54°, 100%, 90%)</td>
-            </tr>
         </table>
     </div>
     <div class="container">
-        <img src="Copia de MB-Mon-21_Monet_Steilkueste-von-Aval_1 2.jpg" alt="Monet Cliffs">
+        <img src="Copia de MB-Mon-21_Monet_Steilkueste-von-Aval_1 2.jpg" alt="Cliffs">
         <table>
             <tr>
                 <th class="p2-blue">Blue</th>
@@ -59,9 +83,6 @@
             </tr>
             <tr>
                 <td>(90, 153, 173)</td><td>(144, 148, 168)</td><td>(141, 163, 111)</td><td>(226, 167, 134)</td>
-            </tr>
-            <tr>
-                <td>(194°, 33%, 52%)</td><td>(230°, 12%, 61%)</td><td>(85°, 22%, 54%)</td><td>(22°, 60%, 71%)</td>
             </tr>
         </table>
     </div>
@@ -79,9 +100,6 @@
             </tr>
             <tr>
                 <td>(200, 138, 101)</td><td>(228, 162, 153)</td><td>(234, 216, 193)</td><td>(139, 43, 35)</td>
-            </tr>
-            <tr>
-                <td>(22°, 49%, 59%)</td><td>(7°, 56%, 75%)</td><td>(34°, 48%, 84%)</td><td>(5°, 60%, 34%)</td>
             </tr>
         </table>
     </div>
