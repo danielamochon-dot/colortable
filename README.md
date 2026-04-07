@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Tablas de Colores - Arte</title>
+    <title>Color tables</title>
     <style>
         body { 
             font-family: sans-serif; 
