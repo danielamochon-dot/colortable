@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Tablas de Colores - Arte</title>
     <style>
-        /* Esto controla que el texto no se amontone y se vea como diseño */
         body { 
             font-family: sans-serif; 
             margin: 40px; 
